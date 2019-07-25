@@ -104,14 +104,6 @@ nav a:first-child {
     border: 1px solid #ddd;
 }
 
-.auth-image {
-    width: 190px;
-    height: auto;
-    margin-top: 10px;
-    float: left;
-    margin-right: 25px;
-}
-
 
 /* footer */
  
@@ -132,7 +124,7 @@ footer {
 /* portfolio */
 
 .work {
-    width: 264px;
+    width: 270px;
     overflow: auto;
     position: relative;
     float: left;
@@ -150,6 +142,15 @@ footer {
     opacity: 1;
 }
 
+.auth-image {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
+
 .work h3 {
     border-bottom: 0;
     background: #4aaaa5;
@@ -164,6 +165,11 @@ footer {
     font-weight: 300;
     opacity: .9;
 }
+
+.flex {
+    flex-wrap: wrap;
+}
+
 
 /* contact */
 
@@ -203,4 +209,33 @@ input[type=submit] {
     font-size: 18px;
     padding: 10px 30px;
     cursor: pointer;
+}
+
+/* media screen sizes */
+
+@media screen and (max-width: 980px) {
+    .main-section {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-section {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    nav {
+        display: block;
+        float:left;
+    }
+    #logo {
+        width: 100%;
+    }
+    .work {
+        width: 100%;
+    }
+}
+
 }
