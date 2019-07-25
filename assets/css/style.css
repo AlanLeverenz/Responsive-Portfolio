@@ -211,7 +211,8 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/* media screen sizes */
+
+/* media screen sizes max-width*/
 
 @media screen and (max-width: 980px) {
     .main-section {
@@ -236,6 +237,43 @@ input[type=submit] {
     .work {
         width: 100%;
     }
+    header {
+        position: static;
+    }
 }
 
+
+/* bootstrap media sizes */
+
+/* .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
 }
+
+@media (min-width: 576px) {
+    .container {
+        max-width:540px
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width:720px
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width:960px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width:1140px
+    }
+} */
+
