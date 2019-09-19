@@ -7,4 +7,6 @@ Portfolio. One thing I could not solve is how the work images flow when the scre
 
 Contact. I added the social media sidebar, floating it left when the screen width is below 640px.
 
+The link is: https://alanleverenz.github.io/Responsive-Portfolio/
+
 - Alan Leverenz
